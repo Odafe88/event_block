@@ -11,46 +11,46 @@ const SearchBar = () => {
                 placeholder="Search"
                 aria-label="Search" />
             <select
-                className="bg-gray-50 text-gray-900 text-sm rounded-lg focus:ring-pink-200 focus:border-pink-200 block w-1/4 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                className="bg-[#31363F] text-[#EEEEEE] text-sm rounded-lg focus:border-none block w-1/4 p-2.5"
             >
-                <option className="text-gray-900 text-sm">Choose a state</option>
-                <option className="text-gray-900 text-sm" selected value="Abia">Abia</option>
-                <option className="text-gray-900 text-sm" value="Adamawa">Adamawa</option>
-                <option className="text-gray-900 text-sm" value="Akwa Ibom">Akwa Ibom</option>
-                <option className="text-gray-900 text-sm" value="Anambra">Anambra</option>
-                <option className="text-gray-900 text-sm" value="Bauchi">Bauchi</option>
-                <option className="text-gray-900 text-sm" value="Bayelsa">Bayelsa</option>
-                <option className="text-gray-900 text-sm" value="Benue">Benue</option>
-                <option className="text-gray-900 text-sm"  value="Borno">Borno</option>
-                <option className="text-gray-900 text-sm"  value="Cross River">Cross River</option>
-                <option className="text-gray-900 text-sm"  value="Delta">Delta</option>
-                <option className="text-gray-900 text-sm"  value="Eboyin">Eboyin</option>
-                <option className="text-gray-900 text-sm"  value="Edo">Edo</option>
-                <option className="text-gray-900 text-sm"  value="Ekiti">Ekiti</option>
-                <option className="text-gray-900 text-sm"  value="Enugu">Enugu</option>
-                <option className="text-gray-900 text-sm"  value="FCT-Abuja">FCT-Abuja</option>
-                <option className="text-gray-900 text-sm"  value="Gombe">Gombe</option>
-                <option className="text-gray-900 text-sm"  value="Imo">Imo</option>
-                <option className="text-gray-900 text-sm"  value="Jigiwa">Jigiwa</option>
-                <option className="text-gray-900 text-sm"  value="Kaduna">Kaduna</option>
-                <option className="text-gray-900 text-sm"  value="Kano">Kano</option>
-                <option className="text-gray-900 text-sm"  value="Katsina">Katsina</option>
-                <option className="text-gray-900 text-sm"  value="Kebbi">Kebbi</option>
-                <option className="text-gray-900 text-sm" value="Kogi">Kogi</option>
-                <option className="text-gray-900 text-sm"  value="Kwara">Kwara</option>
-                <option className="text-gray-900 text-sm"  value="Lagos">Lagos</option>
-                <option className="text-gray-900 text-sm"  value="Nasarawa">Nasarawa</option>
-                <option className="text-gray-900 text-sm"  value="Niger">Niger</option>
-                <option className="text-gray-900 text-sm"  value="Ogun">Ogun</option>
-                <option className="text-gray-900 text-sm"  value="Ondo">Ondo</option>
-                <option className="text-gray-900 text-sm"  value="Osun">Osun</option>
-                <option className="text-gray-900 text-sm"  value="Oyo">Oyo</option>
-                <option className="text-gray-900 text-sm"  value="Plateau">Plateau</option>
-                <option className="text-gray-900 text-sm"  value="Rivers">Rivers</option>
-                <option className="text-gray-900 text-sm"  value="Sokoto">Sokoto</option>
-                <option className="text-gray-900 text-sm"  value="Taraba">Taraba</option>
-                <option className="text-gray-900 text-sm"  value="Yobe">Yobe</option>
-                <option className="text-gray-900 text-sm"  value="Zamfara">Zamfara</option>
+                <option className="text-[#EEEEEE] text-sm">Choose a state</option>
+                <option className="text-[#EEEEEE] text-sm" selected value="Abia">Abia</option>
+                <option className="text-[#EEEEEE] text-sm" value="Adamawa">Adamawa</option>
+                <option className="text-[#EEEEEE] text-sm" value="Akwa Ibom">Akwa Ibom</option>
+                <option className="text-[#EEEEEE] text-sm" value="Anambra">Anambra</option>
+                <option className="text-[#EEEEEE] text-sm" value="Bauchi">Bauchi</option>
+                <option className="text-[#EEEEEE] text-sm" value="Bayelsa">Bayelsa</option>
+                <option className="text-[#EEEEEE] text-sm" value="Benue">Benue</option>
+                <option className="text-[#EEEEEE] text-sm"  value="Borno">Borno</option>
+                <option className="text-[#EEEEEE] text-sm"  value="Cross River">Cross River</option>
+                <option className="text-[#EEEEEE] text-sm"  value="Delta">Delta</option>
+                <option className="text-[#EEEEEE] text-sm"  value="Eboyin">Eboyin</option>
+                <option className="text-[#EEEEEE] text-sm"  value="Edo">Edo</option>
+                <option className="text-[#EEEEEE] text-sm"  value="Ekiti">Ekiti</option>
+                <option className="text-[#EEEEEE] text-sm"  value="Enugu">Enugu</option>
+                <option className="text-[#EEEEEE] text-sm"  value="FCT-Abuja">FCT-Abuja</option>
+                <option className="text-[#EEEEEE] text-sm"  value="Gombe">Gombe</option>
+                <option className="text-[#EEEEEE] text-sm"  value="Imo">Imo</option>
+                <option className="text-[#EEEEEE] text-sm"  value="Jigiwa">Jigiwa</option>
+                <option className="text-[#EEEEEE] text-sm"  value="Kaduna">Kaduna</option>
+                <option className="text-[#EEEEEE] text-sm"  value="Kano">Kano</option>
+                <option className="text-[#EEEEEE] text-sm"  value="Katsina">Katsina</option>
+                <option className="text-[#EEEEEE] text-sm"  value="Kebbi">Kebbi</option>
+                <option className="text-[#EEEEEE] text-sm" value="Kogi">Kogi</option>
+                <option className="text-[#EEEEEE] text-sm"  value="Kwara">Kwara</option>
+                <option className="text-[#EEEEEE] text-sm"  value="Lagos">Lagos</option>
+                <option className="text-[#EEEEEE] text-sm"  value="Nasarawa">Nasarawa</option>
+                <option className="text-[#EEEEEE] text-sm"  value="Niger">Niger</option>
+                <option className="text-[#EEEEEE] text-sm"  value="Ogun">Ogun</option>
+                <option className="text-[#EEEEEE] text-sm"  value="Ondo">Ondo</option>
+                <option className="text-[#EEEEEE] text-sm"  value="Osun">Osun</option>
+                <option className="text-[#EEEEEE] text-sm"  value="Oyo">Oyo</option>
+                <option className="text-[#EEEEEE] text-sm"  value="Plateau">Plateau</option>
+                <option className="text-[#EEEEEE] text-sm"  value="Rivers">Rivers</option>
+                <option className="text-[#EEEEEE] text-sm"  value="Sokoto">Sokoto</option>
+                <option className="text-[#EEEEEE] text-sm"  value="Taraba">Taraba</option>
+                <option className="text-[#EEEEEE] text-sm"  value="Yobe">Yobe</option>
+                <option className="text-[#EEEEEE] text-sm"  value="Zamfara">Zamfara</option>
             </select>
         </div>
   )

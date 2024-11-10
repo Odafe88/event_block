@@ -6,26 +6,26 @@ const HomePage = () => {
   return (
     
     <div className="relative">
-      <section className="flex items-center justify-center h-auto w-full px-[10px] md:px-[20px] py-[10px] md:py-[20px] px-[20px] ">
+      <section className="bg-[#131313] flex items-center justify-center h-[70vh] max-h-screen w-full px-[10px] md:px-[20px] py-[10px] md:py-[20px] px-[20px] ">
         <div className="relative w-auto md:w-3/4 pt-[10px] md:pt-[40px] text-center text-slate-200">
           
           <div className="">
-            <p className="text-[24px] md:text-[30px] font-Poppins md:leading-tight"><span className="text-yellow-300">Live.</span> <span className="text-blue-300">Learn.</span> <span>Experience.</span></p>
-            <h1 className="text-[30px] md:text-[65px] font-Poppins md:leading-tight">
-              Find events your are interested in near <span className="text-blue-200">you</span>!
+            <p className="text-[24px] md:text-[50px] font-Poppins md:leading-tight"><span className="text-yellow-300">Live.</span> <span className="text-blue-300">Learn.</span> <span>Experience.</span></p>
+            <h1 className="text-[30px] md:text-[60px] font-Poppins md:leading-tight">
+              Find events your are interested in near <span className="text-[#76ABAE]">you</span>!
             </h1>
           </div>
           <SearchBar />
           <div className="flex justify-center items-center gap-4 py-4">
               <div>
-                <button className="bg-gray-800 px-2.5 py-1.5 md:px-4 md:py-2 rounded-md font-Poppins font-semibold text-[#fff] shadow-md text-[14px] md:text-lg text-center justify-center items-center
-                  hover:bg-blue-800 transition-all ease-in"
+                <button className="bg-[#222831] px-2.5 py-1.5 md:px-4 md:py-2 rounded-md font-Poppins font-semibold text-[#fff] shadow-md text-[14px] md:text-lg text-center justify-center items-center
+                  hover:bg-[#EEEEEE] hover:text-[#31363F] transition-all ease-in"
                 >
                   Create Event
                 </button>
               </div>
               <div>
-                <button className="bg-slate-200 px-2.5 py-1.5 md:px-4 md:py-2 rounded-md font-Poppins font-semibold text-slate-900 shadow-md text-[14px] md:text-lg text-center justify-center items-center
+                <button className="bg-[#EEEEEE] px-2.5 py-1.5 md:px-4 md:py-2 rounded-md font-Poppins font-semibold text-slate-900 shadow-md text-[14px] md:text-lg text-center justify-center items-center
                   hover:bg-white transition-all ease-in"
                 >
                   Find Event
